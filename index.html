@@ -1,1 +1,160 @@
-collage registration form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage web registration</title>
+    <link rel="icon" href="https://img.freepik.com/free-photo/3d-illustration-academic-hat-with-golden-tassel_107791-16182.jpg?w=900&t=st=1700390663~exp=1700391263~hmac=39145e56772f5532fbeb66d02fdd6b758c9cac2f5b4a3ab28915eadb2bf4dc4a">
+
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            color: rgb(0, 3, 5);
+            
+            
+        }
+
+        header{
+            background-color: rgb(251, 142, 0);
+            text-align: center;
+            padding: 2px;
+        }
+        .navitem {
+            display: inline;
+            padding: 20px;
+        }
+        .navitem a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to collage Registration</h1>
+        <nav>
+         <ul>
+             <li class="navitem"><a href="#student-registration">Student Registration</a></li>
+             <li class="navitem"><a href="#registered-student">Registered Student</a></li>
+             <li class="navitem"><a href="#contact-us">Contact Us</a></li>
+         </ul>
+        </nav>
+    </header>
+    <img src="https://img.freepik.com/free-photo/portrait-smiling-nostalgic-female-student-looking-upper-left-corner-holding-notebooks_1258-19148.jpg?w=826&t=st=1700389863~exp=1700390463~hmac=2575c439806061c24b0b765fbfcf148612f658c77f7109ea7d951b4bead78cc4" alt="bimt"
+    style="width: 100%;>
+
+    <section id= "student-registration ">
+        <h2>Student Basic Information</h2>
+        <form>
+            <label for="name">Name :</label>
+            <input type="text" id="name"> <br><br>
+
+            <label for="email">Email Id :</label>
+            <input type="email" id="email"> <br><br>
+
+            <label for="password">Password :</label> 
+            <input type="password" id="password"> <br><br>
+
+            <label for="dob">Date of birth :</label> 
+            <input type="date" id="dob"> <br><br>
+
+            <label for="course">Course :</label>
+            <select>
+                <option>Bachelor of Architecture (B.Arch.)</option>
+                <option>Bachelor of Arts (B.A.)</option>
+                <option>Bachelor of Business (B.B.)</option>
+                <option>Bachelor of Business Administration (B.B.A.)</option>
+                <option>Bachelor of Science in Business (B.S.B.)</option>
+                <option>Bachelor of Canon Law (B.C.L.)</option>
+                <option>Bachelor of Computer Science (B.C.S.)</option>
+                <option>Bachelor of Science in Computer Science (B.S.C.S.)</option>
+                <option>Bachelor of Criminal Justice (B.C.J.)</option>
+                <option>Bachelor of Science in Criminal Justice (B.S.C.J.)</option>
+                <option>Bachelor of Divinity (B.D.)</option>
+                <option>Bachelor of Education (B.Ed.)</option>
+                <option>Bachelor of Science in Engineering (B.S.E./B.S.EN.)</option>
+                <option>Bachelor of Computer Engineering (B.Comp.E.)</option>
+                <option>Bachelor of Science in Computer Engineering (B.S.C.E./B.S.Cmp.E.)</option>
+                <option>Bachelor of Science in Computer Science and Engineering (B.S.C.S.E.)</option>
+                <option>Bachelor of Science in Electrical Engineering (B.S.E.E.)</option>
+                <option>Bachelor of Fiber Engineering (B.F.E.)</option>
+                <option>other</option>
+            </select> <br><br>
+            <label for="other">Other Course : </label>
+            <input type="text" id="other"> <br><br>
+            <input type="submit">
+        </form>
+
+    </section>
+
+    <section id="registered-student">
+        <h2>Registered Student</h2>
+        <table>
+            <tr>
+                <th>SI No</th>
+                <th>Enrolment no.</th>
+                <th>Student Name</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>201</td>
+                <td>Aarav Sharma</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>202</td>
+                <td>Priya Patel</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>203</td>
+                <td>Arjun Singh</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>204</td>
+                <td>Aisha Gupta</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>205</td>
+                <td>Karthik Verma</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>206</td>
+                <td>Anil Pathak</td>
+                <td>BCA</td>
+            </tr>
+            
+
+        </table>
+
+    </section>
+
+
+    <section id="contact-us">
+        <h2>Contact us</h2>
+        <p>Phone number : 99XXXXXX45 </p>
+        <p>Email : bimt@collage.com</p>
+        <p>Address :<Address>Bon Maharaj Institutions
+            Bhaktivedanta Swami Marg, Chaitanya Vihar, Vrindavan, Uttar Pradesh 281121</Address></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.7053250843956!2d77.67738957546251!3d27.5716543762607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736e22e19ca78d%3A0x1e1d555cd0298972!2sBon%20Maharaj%20Institutions!5e0!3m2!1sen!2sin!4v1700389120024!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 bimt</p>
+    </footer>
+</body>
+</html>
